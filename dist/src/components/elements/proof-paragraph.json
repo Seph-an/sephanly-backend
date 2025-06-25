@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_elements_proof_paragraphs",
+    "info": {
+        "displayName": "ProofParagraph"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "paragraph": {
+            "type": "text"
+        }
+    }
+}

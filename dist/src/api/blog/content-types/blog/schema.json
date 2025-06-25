@@ -1,0 +1,48 @@
+{
+    "kind": "collectionType",
+    "collectionName": "blogs",
+    "info": {
+        "singularName": "blog",
+        "pluralName": "blogs",
+        "displayName": "Blog",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "Title": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        },
+        "slug": {
+            "type": "string",
+            "unique": true,
+            "required": true
+        },
+        "Description": {
+            "type": "richtext",
+            "required": true
+        },
+        "categories": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::category.category",
+            "mappedBy": "blogs"
+        },
+        "isFeatured": {
+            "type": "boolean"
+        },
+        "Read_Time": {
+            "type": "integer",
+            "required": true,
+            "min": 1,
+            "max": 15
+        },
+        "article": {
+            "type": "richtext",
+            "required": true
+        }
+    }
+}

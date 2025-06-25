@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_elements_proof_items",
+    "info": {
+        "displayName": "ProofItem"
+    },
+    "options": {},
+    "attributes": {
+        "quantity": {
+            "type": "integer",
+            "required": true
+        },
+        "context": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

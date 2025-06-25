@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_elements_quantity_captions",
+    "info": {
+        "displayName": "quantityCaption"
+    },
+    "options": {},
+    "attributes": {
+        "quantity": {
+            "type": "string"
+        },
+        "caption": {
+            "type": "string"
+        }
+    }
+}

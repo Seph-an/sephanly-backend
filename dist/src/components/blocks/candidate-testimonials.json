@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_blocks_candidate_testimonials",
+    "info": {
+        "displayName": "CandidateTestimonials"
+    },
+    "options": {},
+    "attributes": {
+        "identification": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "CandidateTestimonys": {
+            "displayName": "CanditateTestimonys",
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.canditate-testimonys"
+        }
+    }
+}

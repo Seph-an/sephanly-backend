@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_blocks_candidate_proofs",
+    "info": {
+        "displayName": "CandidateProofs",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "Proofs": {
+            "displayName": "Proofs",
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.proofs"
+        },
+        "ProofParagraph": {
+            "displayName": "ProofParagraph",
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.proof-paragraph"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_elements_candidate_testimonies",
+    "info": {
+        "displayName": "CandidateTestimony"
+    },
+    "options": {},
+    "attributes": {
+        "author": {
+            "type": "string"
+        },
+        "testimony": {
+            "type": "text"
+        },
+        "service": {
+            "type": "enumeration",
+            "enum": [
+                "cv",
+                "linkedin",
+                "interview"
+            ],
+            "default": "cv",
+            "required": true
+        }
+    }
+}

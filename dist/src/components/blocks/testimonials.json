@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_blocks_testimonials",
+    "info": {
+        "displayName": "Testimonials",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "identification": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "subTitle": {
+            "type": "text"
+        },
+        "Testimonys": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.testimonys"
+        },
+        "hook": {
+            "type": "text"
+        },
+        "button": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.button-link"
+        }
+    }
+}

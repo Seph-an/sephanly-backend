@@ -129,3 +129,7 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+
+# ---------- KEEP THESE TWO LINES AT THE END ----------
+!build/
+!dist/      

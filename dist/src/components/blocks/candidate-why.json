@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_blocks_candidate_whies",
+    "info": {
+        "displayName": "CandidateWhy",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "identification": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "Propositions": {
+            "displayName": "Propositions",
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.propositions"
+        }
+    }
+}

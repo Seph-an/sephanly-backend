@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_elements_social_medias",
+    "info": {
+        "displayName": "SocialMedia",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "MediaPlatform": {
+            "displayName": "MediaPlatform",
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.media-platform"
+        }
+    }
+}

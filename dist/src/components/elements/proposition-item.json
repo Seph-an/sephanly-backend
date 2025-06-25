@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_elements_proposition_items",
+    "info": {
+        "displayName": "PropositionItem"
+    },
+    "options": {},
+    "attributes": {
+        "service": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        }
+    }
+}
