@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_services",
+  "info": {
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "identification": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "ServiceItems": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.service-items"
+    }
+  }
+}

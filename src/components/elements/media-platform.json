@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_media_platforms",
+  "info": {
+    "displayName": "MediaPlatform"
+  },
+  "options": {},
+  "attributes": {
+    "PlatformName": {
+      "type": "string"
+    },
+    "AccountName": {
+      "type": "string"
+    },
+    "LinkToAccount": {
+      "type": "string"
+    }
+  }
+}

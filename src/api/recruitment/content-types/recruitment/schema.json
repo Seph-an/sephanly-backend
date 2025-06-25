@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "recruitments",
+  "info": {
+    "singularName": "recruitment",
+    "pluralName": "recruitments",
+    "displayName": "Recruitment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "RecruitmentPage": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hr-hero",
+        "blocks.hr-process",
+        "blocks.hr-types",
+        "blocks.hr-cta"
+      ]
+    }
+  }
+}

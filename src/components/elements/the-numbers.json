@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_the_numbers",
+  "info": {
+    "displayName": "theNumbers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantityCaption": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.quantity-caption"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_trusted_clients_logos",
+  "info": {
+    "displayName": "trustedClientsLogos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "clientLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tag": {
+      "type": "text"
+    }
+  }
+}

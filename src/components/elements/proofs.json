@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_proofs",
+  "info": {
+    "displayName": "Proofs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ProofItem": {
+      "displayName": "ProofItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.proof-item"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_hr_processes",
+  "info": {
+    "displayName": "HR-Process"
+  },
+  "options": {},
+  "attributes": {
+    "identification": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "descriptionHighlight": {
+      "type": "text"
+    },
+    "Processes": {
+      "displayName": "Processes",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.processes"
+    }
+  }
+}

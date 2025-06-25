@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_values_containers",
+  "info": {
+    "displayName": "ValuesContainer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "item2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "item3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "item4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "item5": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_testimonys",
+  "info": {
+    "displayName": "Testimonys"
+  },
+  "options": {},
+  "attributes": {
+    "Testimony": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.testimony"
+    }
+  }
+}

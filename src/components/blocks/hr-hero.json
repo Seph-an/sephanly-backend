@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_hr_heroes",
+  "info": {
+    "displayName": "HR-Hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "subtitleHighlight": {
+      "type": "string"
+    },
+    "serviceImg": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "identification": {
+      "type": "string"
+    }
+  }
+}

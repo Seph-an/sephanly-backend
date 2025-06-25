@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_faqs",
+  "info": {
+    "displayName": "faqs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "identification": {
+      "type": "string"
+    },
+    "faqsContainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.faqs-container"
+    },
+    "hook": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button-link"
+    }
+  }
+}

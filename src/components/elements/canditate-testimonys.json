@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_canditate_testimonys",
+  "info": {
+    "displayName": "CanditateTestimonys"
+  },
+  "options": {},
+  "attributes": {
+    "CandidateTestimony": {
+      "displayName": "CandidateTestimony",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.candidate-testimony"
+    }
+  }
+}

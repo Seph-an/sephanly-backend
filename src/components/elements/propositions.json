@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_propositions",
+  "info": {
+    "displayName": "Propositions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PropositionItem": {
+      "displayName": "PropositionItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.proposition-item"
+    }
+  }
+}

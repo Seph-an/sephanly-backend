@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_values",
+  "info": {
+    "displayName": "Values",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "valuescontainer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.values-container"
+    }
+  }
+}
